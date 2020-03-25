@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <remote name="opsy"
+          fetch=".." />
+  <default remote="opsy"
+           sync-j="4" />
+   <project path="repo1"
+           name="repo_repo1"
+           revision="master"/>
+   <annotation name="tag_postfix" value="test_postfix"/>
+</manifest>
